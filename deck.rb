@@ -14,8 +14,7 @@ class Deck
     @cards = Array.new
     create_deck
 
-    # Set a discard pile
-    @number_of_cards = self.cards.length
+    
   end
 
   # Form a 52 card deck and shuffle it
